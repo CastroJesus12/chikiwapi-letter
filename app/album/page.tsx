@@ -66,14 +66,14 @@ const memories: Memory[] = [
     emoji: "🏰",
   },
   {
-    image: "/p8.JPEG",
+    image: "/p8.jpeg",
     caption:
       "Our spontaneous beach day when we skipped class. I still find sand in my backpack sometimes!",
     rotationAngle: 2,
     emoji: "🏖️",
   },
   {
-    image: "/p9.JPEG",
+    image: "/p9.jpeg",
     caption:
       "You've always been there for me through thick and thin. I'm so grateful for your friendship. ❤️",
     rotationAngle: -1,
@@ -92,7 +92,7 @@ export default function Album() {
   return (
     <>
       <div className="scrapbook-bg relative" />
-      <Confetti />
+      {/* <Confetti /> */}
 
       <main
         style={{
