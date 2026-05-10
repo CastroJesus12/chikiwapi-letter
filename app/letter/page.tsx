@@ -22,7 +22,7 @@ export default function BurgundyLoveLetter() {
               <p style={styles.salutation}>Te amo Marlen...</p>
               <div className="flex justify-center mb-8">
                 <Image
-                  src="/photos/Cat Blushing GIF.gif"
+                  src="/Cat Blushing GIF.gif"
                   width={150}
                   height={150}
                   unoptimized
