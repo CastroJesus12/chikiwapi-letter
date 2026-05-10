@@ -3,84 +3,84 @@ import Image from "next/image";
 import MemoryGallery from "@/components/MemoryGallery";
 import { Memory } from "@/components/MemoryCard";
 import Link from "next/link";
-import img from "@/public/photos/Cat Love GIF by NGcorpvtc.gif";
-import p1 from "@/public/photos/p1.jpg";
-import p2 from "@/public/photos/p2.jpg";
-import p3 from "@/public/photos/p3.jpg";
-import p4 from "@/public/photos/p4.jpeg";
-import p5 from "@/public/photos/p5.jpeg";
-import p6 from "@/public/photos/p6.jpeg";
-import p7 from "@/public/photos/p7.jpeg";
-import p8 from "@/public/photos/p8.jpeg";
-import p9 from "@/public/photos/p9.jpeg";
-import p10 from "@/public/photos/p10.jpeg";
-import svg from "@/public/photos/image.svg";
+// import img from "/public/photos/Cat Love GIF by NGcorpvtc.gif";
+// import p1 from "/public/photos/p1.jpg";
+// import p2 from "/public/photos/p2.jpg";
+// import p3 from "/public/photos/p3.jpg";
+// import p4 from "/public/photos/p4.jpeg";
+// import p5 from "/public/photos/p5.jpeg";
+// import p6 from "/public/photos/p6.jpeg";
+// import p7 from "/public/photos/p7.jpeg";
+// import p8 from "/public/photos/p8.jpeg";
+// import p9 from "/public/photos/p9.jpeg";
+// import p10 from "/public/photos/p10.jpeg";
+// import svg from "/public/photos/image.svg";
 const memories: Memory[] = [
   {
-    image: p1,
+    image: "/public/photos/p1.jpg",
     caption:
       "Remember when we got lost hiking and found that amazing waterfall? Best wrong turn ever! 😂",
     rotationAngle: -2,
     emoji: "🌊",
   },
   {
-    image: p2,
+    image: "/public/photos/p2.jpg",
     caption:
       "That time we stayed up all night just talking and watching the sunrise. I've never laughed so hard in my life!",
     rotationAngle: 3,
     emoji: "🌅",
   },
   {
-    image: p3,
+    image: "/public/photos/p3.jpg",
     caption:
       "Our first road trip together! You fell asleep and I drew a tiny mustache on you with a marker. You didn't notice for HOURS!",
     rotationAngle: -1,
     emoji: "🚗",
   },
   {
-    image: p4,
+    image: "/public/photos/p4.jpeg",
     caption:
       "Remember our cooking disaster when we tried to make that fancy recipe? The smoke alarm going off, but the pizza we ordered after was the best ever!",
     rotationAngle: 2,
     emoji: "🍕",
   },
   {
-    image: p5,
+    image: "/public/photos/p5.jpeg",
     caption:
       "Our camping trip under the stars. You were terrified of that tiny spider and jumped so high! Still my favorite memory.",
     rotationAngle: -3,
     emoji: "🏕️",
   },
   {
-    image: p6,
+    image: "/public/photos/p6.jpeg",
     caption:
       "That concert where we danced until our feet hurt. Worth every blister!",
     rotationAngle: 1,
     emoji: "🎵",
   },
   {
-    image: p7,
+    image: "/public/photos/p7.jpeg",
     caption:
       "When we built that epic blanket fort during the storm and watched movies all day. Best rainy day ever!",
     rotationAngle: -2,
     emoji: "🏰",
   },
   {
-    image: p8,
+    image: "/public/photos/p8.jpeg",
     caption:
       "Our spontaneous beach day when we skipped class. I still find sand in my backpack sometimes!",
     rotationAngle: 2,
     emoji: "🏖️",
   },
   {
-    image: p9,
+    image: "/public/photos/p9.jpeg",
     caption:
       "You've always been there for me through thick and thin. I'm so grateful for your friendship. ❤️",
     rotationAngle: -1,
     emoji: "💕",
   },
   {
-    image: p10,
+    image: "/public/photos/p10.jpeg",
     caption:
       "Happy Birthday to my best friend in the whole world! Here's to many more adventures together!",
     rotationAngle: 3,
@@ -116,7 +116,7 @@ export default function Album() {
         {/* Centered GIF */}
         <div className="flex justify-center mb-8">
           <Image
-            src={img}
+            src="/public/photos/Cat Love GIF by NGcorpvtc.gif"
             width={200}
             height={200}
             unoptimized
