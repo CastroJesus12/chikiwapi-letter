@@ -146,7 +146,7 @@ export default function Album() {
             // className="btn btn-next bg-[#800020] text-white px-8 py-3 rounded-full"
           >
             <Image
-              src={svg}
+              src="/public/photos/image.svg"
               alt="envelope"
               width={200}
               height={400}
