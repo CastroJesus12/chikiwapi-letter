@@ -17,70 +17,70 @@ import Link from "next/link";
 // import svg from "/image.svg";
 const memories: Memory[] = [
   {
-    image: "/p1.jpg",
+    image: "/p1.JPG",
     caption:
       "Remember when we got lost hiking and found that amazing waterfall? Best wrong turn ever! 😂",
     rotationAngle: -2,
     emoji: "🌊",
   },
   {
-    image: "/p2.jpg",
+    image: "/p2.JPG",
     caption:
       "That time we stayed up all night just talking and watching the sunrise. I've never laughed so hard in my life!",
     rotationAngle: 3,
     emoji: "🌅",
   },
   {
-    image: "/p3.jpg",
+    image: "/p3.JPG",
     caption:
       "Our first road trip together! You fell asleep and I drew a tiny mustache on you with a marker. You didn't notice for HOURS!",
     rotationAngle: -1,
     emoji: "🚗",
   },
   {
-    image: "/p4.jpeg",
+    image: "/p4.JPEG",
     caption:
       "Remember our cooking disaster when we tried to make that fancy recipe? The smoke alarm going off, but the pizza we ordered after was the best ever!",
     rotationAngle: 2,
     emoji: "🍕",
   },
   {
-    image: "/p5.jpeg",
+    image: "/p5.JPEG",
     caption:
       "Our camping trip under the stars. You were terrified of that tiny spider and jumped so high! Still my favorite memory.",
     rotationAngle: -3,
     emoji: "🏕️",
   },
   {
-    image: "/p6.jpeg",
+    image: "/p6.JPEG",
     caption:
       "That concert where we danced until our feet hurt. Worth every blister!",
     rotationAngle: 1,
     emoji: "🎵",
   },
   {
-    image: "/p7.jpeg",
+    image: "/p7.JPEG",
     caption:
       "When we built that epic blanket fort during the storm and watched movies all day. Best rainy day ever!",
     rotationAngle: -2,
     emoji: "🏰",
   },
   {
-    image: "/p8.jpeg",
+    image: "/p8.JPEG",
     caption:
       "Our spontaneous beach day when we skipped class. I still find sand in my backpack sometimes!",
     rotationAngle: 2,
     emoji: "🏖️",
   },
   {
-    image: "/p9.jpeg",
+    image: "/p9.JPEG",
     caption:
       "You've always been there for me through thick and thin. I'm so grateful for your friendship. ❤️",
     rotationAngle: -1,
     emoji: "💕",
   },
   {
-    image: "/p10.jpeg",
+    image: "/p10.JPEG",
     caption:
       "Happy Birthday to my best friend in the whole world! Here's to many more adventures together!",
     rotationAngle: 3,
