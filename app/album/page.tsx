@@ -140,19 +140,21 @@ export default function Album() {
             width: "100%",
           }}
         >
-          <Link
-            href="/letter"
-            className="-ml-10 mr-10"
-            // className="btn btn-next bg-[#800020] text-white px-8 py-3 rounded-full"
-          >
-            <Image
-              src="/public/photos/image.svg"
-              alt="envelope"
-              width={200}
-              height={400}
-              fill={false}
-            />
-          </Link>
+          <div className="-ml-6 -mt-14  overflow-hidden h-80 w-80 flex items-center p-0">
+            <Link
+              href="/letter"
+
+              // className="btn btn-next bg-[#800020] text-white px-8 py-3 rounded-full"
+            >
+              <Image
+                src={svg}
+                alt="envelope"
+                width={800}
+                height={800}
+                fill={false}
+              />
+            </Link>
+          </div>
         </nav>
       </main>
     </>

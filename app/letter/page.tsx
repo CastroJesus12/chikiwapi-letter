@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-//import img from "/public/photos/Cat Blushing GIF.gif";
+import { CSSProperties } from "react";
+// import img from "@/public/photos/Cat Blushing GIF.gif";
 export default function BurgundyLoveLetter() {
   return (
     <div className="grid place-items-center h-screen">
@@ -21,7 +22,7 @@ export default function BurgundyLoveLetter() {
               <p style={styles.salutation}>Te amo Marlen...</p>
               <div className="flex justify-center mb-8">
                 <Image
-                  src="/public/photos/Cat Blushing GIF.gif"
+                  src="/photos/Cat Blushing GIF.gif"
                   width={150}
                   height={150}
                   unoptimized
@@ -118,7 +119,7 @@ export default function BurgundyLoveLetter() {
   );
 }
 
-const styles = {
+const styles: Record<string, CSSProperties> = {
   page: {
     minHeight: "100vh",
     background: "#800020s",
@@ -126,23 +127,23 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     padding: "2rem 1rem",
-  },
+  } as CSSProperties,
   card: {
     background: "#f8e1e7",
     maxWidth: 540,
     width: "100%",
     border: "2px solid #6b1a28",
     padding: "72px 68px 68px",
-    position: "relative",
+
     boxShadow:
       "0 0 0 6px #1a0608, 0 0 0 8px #6b1a28, 0 24px 60px rgba(0,0,0,0.6)",
-  },
+  } as CSSProperties,
   innerBorder: {
     position: "absolute",
     inset: 12,
     border: "0.5px solid #c4848e",
     pointerEvents: "none",
-  },
+  } as CSSProperties,
   rose: {
     position: "absolute",
     width: 90,
