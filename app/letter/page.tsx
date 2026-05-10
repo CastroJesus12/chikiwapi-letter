@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import img from "@/public/photos/Cat Blushing GIF.gif";
+//import img from "/public/photos/Cat Blushing GIF.gif";
 export default function BurgundyLoveLetter() {
   return (
     <div className="grid place-items-center h-screen">
@@ -21,7 +21,7 @@ export default function BurgundyLoveLetter() {
               <p style={styles.salutation}>Te amo Marlen...</p>
               <div className="flex justify-center mb-8">
                 <Image
-                  src={img}
+                  src="/public/photos/Cat Blushing GIF.gif"
                   width={150}
                   height={150}
                   unoptimized
