@@ -4,17 +4,17 @@ import MemoryGallery from "@/components/MemoryGallery";
 import { Memory } from "@/components/MemoryCard";
 import Link from "next/link";
 // import img from "/public/photos/Cat Love GIF by NGcorpvtc.gif";
-// import p1 from "/public/photos/p1.jpg";
-// import p2 from "/public/photos/p2.jpg";
-// import p3 from "/public/photos/p3.jpg";
-// import p4 from "/public/photos/p4.jpeg";
-// import p5 from "/public/photos/p5.jpeg";
-// import p6 from "/public/photos/p6.jpeg";
-// import p7 from "/public/photos/p7.jpeg";
-// import p8 from "/public/photos/p8.jpeg";
-// import p9 from "/public/photos/p9.jpeg";
-// import p10 from "/public/photos/p10.jpeg";
-// import svg from "/public/photos/image.svg";
+// import p1 from "/p1.jpg";
+// import p2 from "/p2.jpg";
+// import p3 from "/p3.jpg";
+// import p4 from "/p4.jpeg";
+// import p5 from "/p5.jpeg";
+// import p6 from "/p6.jpeg";
+// import p7 from "/p7.jpeg";
+// import p8 from "/p8.jpeg";
+// import p9 from "/p9.jpeg";
+// import p10 from "/p10.jpeg";
+// import svg from "/image.svg";
 const memories: Memory[] = [
   {
     image: "/p1.jpg",
@@ -147,7 +147,7 @@ export default function Album() {
               // className="btn btn-next bg-[#800020] text-white px-8 py-3 rounded-full"
             >
               <Image
-                src="/public/photos/image.svg"
+                src="/image.svg"
                 alt="envelope"
                 width={800}
                 height={800}
