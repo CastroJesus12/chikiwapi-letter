@@ -58,7 +58,6 @@ export default function MemoryCard({ memory, index }: MemoryCardProps) {
           className="memory-img"
           src={memory.image}
           alt={`Memory ${index + 1}`}
-          fill
           style={{ objectFit: "cover" }}
           unoptimized
         />
